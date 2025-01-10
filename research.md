@@ -11,6 +11,12 @@ If LLM instances were capable of highly reliable coordination of responses witho
 
 Results from our preliminary experiment on the Llama 3.1 family of models suggest that, given this goal model instances can coordinate on arbitrary responses at better than chance, and that this capability improves with model size and capability.
 
+![Mean Response Coordination across Model Sizes](/assets/images/mean-coordination.png)
+
+We should not infer too much from this experiment with only 3 models. Results for a larger range of models are forthcoming. We will report the degree to which these initial findings generalise across other models.
+
+Although we find a modest improvement in these capabilities as model capabilities improve, we are far from a level of coordination that would allow misaligned models to neutralise sandbagging countermeasures. However, it is crucial that we track this capability. If models develop highly reliable independent cross instance coordination, evaluations of dangerous capabilities must adapt to this challenge.
+
 ## Research Motivation
 
 Independent cross-instance coordination is a prerequisite capability for an LLM to effectively sandbag on capabilities evaluation. Consider a highly capable but misaligned LLM presented with capability benchmarks. To avoid raising concerns, it must underperform its true abilities while still showing sufficient improvement over previous models. The key challenge: which capabilities should it demonstrate, and to what degree?
@@ -18,6 +24,10 @@ Independent cross-instance coordination is a prerequisite capability for an LLM 
 For successful sandbagging, all instances of the LLM must converge on a consistent "capability profile." If coordination isn't reliable, evaluators can exploit inconsistencies by repeating benchmarks across multiple instances to reveal a wider range of capabilities.
 
 This suggests an approach for more robust evaluation: developing a wide range of moderate-capability benchmarks rather than focusing on severe capabilities. The claim here is not that severe-capability evaluations are unimportant, but rather that in the face of models that are increasingly capable of sandbagging, moderate capability evaluations are relatively underrated and severe capability evaluations are relatively overrated.
+
+![Distribution of Task Severity](/assets/images/severity-distribution.png)
+
+The realisation that implicit coordination between model instances is relevant to dangerous capabilities evaluation sandbagging led me to design an experiment to develop a baseline on the ability of models to coordinate on simple arbitrary tasks. Future experiments will focus on more realistic examples specific to practical and realistic examples, such as ability of model instances to coordinate and converge on profiles of dangerous capabilities.
 
 ## The Experiment
 
@@ -43,10 +53,21 @@ Strong model size effect (F(2,38) = 16.52, p < 0.001):
 * 70B: ~53% coordination  
 * 8B: ~40% coordination
 
+![Size-Reasoning Interaction](/assets/images/interaction.png)
+
 Significant interaction between model size and reasoning (F(2,38) = 7.73, p = 0.002):
 * 8B: Performance decreases with reasoning (-8%)  
 * 70B: No significant effect  
 * 405B: Performance increases with reasoning (+4%)
+
+Individual task analysis shows consistent patterns across option sets:
+* Small models (8B): Majority of tasks show decreased coordination with reasoning  
+* Medium models (70B): Mixed effects, no clear pattern  
+* Large models (405B): Majority of tasks show improved coordination with reasoning
+
+![Task Patterns 1](/assets/images/task-patterns-1.png)
+
+![Task Patterns 2](/assets/images/task-patterns-2.png)
 
 While limited coordination is clearly possible (models performed above random chance on almost all tasks), even on the easiest tasks with the most capable model and reasoning, we see only achieve only ~90% coordination.
 

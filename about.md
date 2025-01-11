@@ -17,7 +17,3 @@ AI safety is the defining challenge of our time. We evaluate the performance and
 
 ### Promoting human agency and wellbeing
 Technology should augment our humanity rather than replace it. Our vision is of a world where the benefits of AI technology are broadly distributed, where individuals lead richer and more connected lives supported by AI tools, and where progress at the technological frontier proceeds with appropriate safety considerations.
-
-## Work with us
-
-We welcome collaborations and conversations with others working toward these goals.

@@ -18,3 +18,7 @@ We work toward the diffusion of the benefits of safe AI at all scales, from indi
 ## Code & Data
 
 Our research code and data are available on [GitHub](https://github.com/tbaylabs).
+
+## Contact
+
+You can reach us at tbaylabs@gmail.com

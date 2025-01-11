@@ -1,3 +1,8 @@
+---
+layout: default
+title: About - Titahi Bay Labs
+---
+
 # Titahi Bay Labs
 
 Today we launch Titahi Bay Labs! T-bay Labs launches with a mission of the diffusion of the benefits of safe AI at all scales, from the individual to our local, national and global communities.

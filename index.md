@@ -14,3 +14,7 @@ Our work investigates how language models coordinate behavior across independent
 ## Mission
 
 We work toward the diffusion of the benefits of safe AI at all scales, from individual to global. [Learn more about us](/about)
+
+## Code & Data
+
+Our research code and data are available on [GitHub](https://github.com/tbaylabs).

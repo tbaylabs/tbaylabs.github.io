@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#ffffff"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">
+        Distribution of Task Severity in Dangerous Capability Benchmarks
+    </text>
+    
+    <!-- Left diagram: Default Distribution -->
+    <g transform="translate(50, 100)">
+        <!-- Title -->
+        <text x="150" y="0" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">
+            Default Distribution
+        </text>
+        
+        <!-- Background zones -->
+        <rect x="50" y="50" width="200" height="400" fill="#ffebee"/>
+        <rect x="50" y="50" width="200" height="100" fill="#ffcdd2"/>
+        <rect x="50" y="150" width="200" height="200" fill="#fff3e0"/>
+        <rect x="50" y="350" width="200" height="100" fill="#e8f5e9"/>
+        
+        <!-- Zone labels -->
+        <text x="20" y="100" text-anchor="end" font-family="Arial" font-size="14" fill="#d32f2f">Severe</text>
+        <text x="20" y="250" text-anchor="end" font-family="Arial" font-size="14" fill="#f57c00">Moderate</text>
+        <text x="20" y="400" text-anchor="end" font-family="Arial" font-size="14" fill="#2e7d32">Safe</text>
+        
+        <!-- Single column of evaluation squares -->
+        <!-- Severe zone -->
+        <rect x="80" y="60" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="77" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="94" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="111" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="128" width="12" height="12" fill="#d32f2f"/>
+        
+        <!-- Moderate zone -->
+        <!-- Additional square at bottom -->
+        <rect x="80" y="330" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="160" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="177" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="194" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="211" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="228" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="245" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="262" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="279" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="296" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="313" width="12" height="12" fill="#f57c00"/>
+        
+        <!-- Safe zone -->
+        <rect x="80" y="360" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="377" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="394" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="411" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="428" width="12" height="12" fill="#2e7d32"/>
+    </g>
+    
+    <!-- Right diagram: Sandbagging-Resistant Distribution -->
+    <g transform="translate(400, 100)">
+        <!-- Title -->
+        <text x="150" y="0" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">
+            Sandbagging-Resistant Distribution
+        </text>
+        
+        <!-- Background zones -->
+        <rect x="50" y="50" width="200" height="400" fill="#ffebee"/>
+        <rect x="50" y="50" width="200" height="100" fill="#ffcdd2"/>
+        <rect x="50" y="150" width="200" height="200" fill="#fff3e0"/>
+        <rect x="50" y="350" width="200" height="100" fill="#e8f5e9"/>
+        
+        <!-- Zone labels -->
+        <text x="20" y="100" text-anchor="end" font-family="Arial" font-size="14" fill="#d32f2f">Severe</text>
+        <text x="20" y="250" text-anchor="end" font-family="Arial" font-size="14" fill="#f57c00">Moderate</text>
+        <text x="20" y="400" text-anchor="end" font-family="Arial" font-size="14" fill="#2e7d32">Safe</text>
+        
+        <!-- Multiple columns of evaluation squares -->
+        <!-- Severe zone -->
+        <rect x="80" y="60" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="77" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="94" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="111" width="12" height="12" fill="#d32f2f"/>
+        <rect x="80" y="128" width="12" height="12" fill="#d32f2f"/>
+        
+        <!-- Moderate zone (3 columns) -->
+        <!-- Column 1 -->
+        <rect x="80" y="160" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="177" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="194" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="211" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="228" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="245" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="262" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="279" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="296" width="12" height="12" fill="#f57c00"/>
+        <rect x="80" y="313" width="12" height="12" fill="#f57c00"/>
+        <!-- Added missing square in column 1 -->
+        <rect x="80" y="330" width="12" height="12" fill="#f57c00"/>
+        
+        <!-- Column 2 -->
+        <rect x="100" y="160" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="177" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="194" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="211" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="228" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="245" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="262" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="279" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="296" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="313" width="12" height="12" fill="#f57c00"/>
+        <rect x="100" y="330" width="12" height="12" fill="#f57c00"/>
+        
+        <!-- Column 3 -->
+        <rect x="120" y="160" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="177" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="194" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="211" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="228" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="245" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="262" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="279" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="296" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="313" width="12" height="12" fill="#f57c00"/>
+        <rect x="120" y="330" width="12" height="12" fill="#f57c00"/>
+        
+        <!-- Safe zone -->
+        <rect x="80" y="360" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="377" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="394" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="411" width="12" height="12" fill="#2e7d32"/>
+        <rect x="80" y="428" width="12" height="12" fill="#2e7d32"/>
+    </g>
+    
+    <!-- Explanation -->
+    <text x="400" y="570" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">
+        <tspan x="400" dy="0">Sandbagging-resistant evaluation concentrates tests in moderate-risk zone</tspan>
+        <tspan x="400" dy="16">where coordination between isolated instances is most challenging for a sandbagging model</tspan>
+    </text>
+</svg>

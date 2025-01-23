@@ -1,0 +1,3 @@
+*.piknik.toml
+.aider*
+.env.local

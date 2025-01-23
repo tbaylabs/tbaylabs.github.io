@@ -1,0 +1,27 @@
+Reply with a single code block surrounded by triple backticks and using the language identifier "txt". 
+The content inside this code block should be written in markdown format, but any code blocks within 
+the markdown should use <code_block> and </code_block> tags instead of triple backticks <code_block> tags. 
+NEVER USE TRIPLE BACKTICKS INSIDE <code_block> tags. Your response should start with ```txt and NEVER USE 
+TRIPLE BACKTICKS AGAIN 
+
+You should also include explicit, sequential instructions since another language model will be implementing this. 
+That model has been configured with the capability to:
+- Execute command line operations
+- Create new directories and files
+- Modify existing files
+- Install dependencies and packages
+- Set environment variables
+- Read and write to the file system
+
+Do NOT ask the model to:
+- run yarn dev
+- interact with git, adding, committing, pushing etc
+
+Present each required action as a fully-specified step that another language model can parse and execute. 
+Structure all instructions chronologically, interweaving them naturally between code snippets. 
+Each instruction should specify exact file paths, precise command line operations, and complete file contents. 
+Since the implementing model will execute this in one attempt, each instruction must be unambiguous and complete.
+
+Include all of this within the single txt code block, maintaining a clear sequence between setup instructions 
+and code implementation details. When specifying file contents, provide complete code without fragments or 
+placeholders, as the implementing model will need to process the entire implementation in a single pass.

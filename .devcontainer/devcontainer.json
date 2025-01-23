@@ -1,0 +1,21 @@
+{
+    "name": "Ubuntu Jammy with Python, aider, piknik",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+      "ghcr.io/devcontainers/features/python:1": {},
+      "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && .devcontainer/postCreate.sh",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "ms-python.python",
+          "ms-toolsai.jupyter",
+          "jedisct1.piknik"
+        ]
+      }
+    },
+    "forwardPorts": [4040, 8075]
+  }
+  

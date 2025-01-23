@@ -1,3 +1,7 @@
 *.piknik.toml
 .aider*
 .env.local
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata

@@ -15,5 +15,5 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: research_update
+      layout: post
       author: Titahi Bay Labs

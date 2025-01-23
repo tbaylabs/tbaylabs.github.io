@@ -4,12 +4,8 @@ date: 2024-05-15
 layout: post
 ---
 
-We're excited to launch our research blog! This will be the home for regular updates on our work in AI safety and capability analysis.
+Welcome to the Titahi Bay Labs research blog
 
-## What to expect
-- Monthly research progress updates
-- Technical deep dives into our methodology
-- Commentary on AI safety developments
-- Guest posts from collaborators
+This is where I will share ongoing research updates.
 
-Stay tuned for our first substantive post coming next week where we'll analyze coordination patterns in the latest Llama models.
+Stay tuned!

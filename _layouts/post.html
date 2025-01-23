@@ -6,13 +6,31 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      {{ page.date | date: "%B %-d, %Y" }} by Graeme Ford<br>TBay Labs Founder
+      {{ page.date | date: "%B %-d, %Y" }}<br>
+      by Graeme Ford, Founder
     </div>
   </header>
 
-  <div class="disclaimer-note">
+  <div class="disclaimer-note" style="margin-bottom: 2rem;">
     <em>This research update represents work in progress and may not meet full academic publication standards. We welcome constructive feedback and critique - please reach out to tbaylabs@gmail.com with any insights.</em>
   </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      {{ page.date | date: "%B %-d, %Y" }}<br>
+      by Graeme Ford, Founder
+    </div>
+  </header>
 
   <div class="post-content">
     {{ content }}

@@ -9,11 +9,11 @@ We research safe and beneficial AI systems, with a current focus on coordination
 
 ## Current Research
 
-Our work investigates how language models coordinate behavior across independent instances - a key capability with implications for AI safety and deployment. [Read more about our research](/research)
+Our work investigates how language models coordinate behavior across independent instances - a key capability with implications for AI safety and deployment. [Read more about our research]({{ "research" | relative_url }})
 
 ## Mission
 
-We work toward the diffusion of the benefits of safe AI at all scales, from individual to global. [Learn more about us](/about)
+We work toward the diffusion of the benefits of safe AI at all scales, from individual to global. [Learn more about us]({{ "about" | relative_url }})
 
 ## Code & Data
 

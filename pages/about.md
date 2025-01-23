@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About - Titahi Bay Labs
+permalink: /about/
 ---
 
 # Titahi Bay Labs

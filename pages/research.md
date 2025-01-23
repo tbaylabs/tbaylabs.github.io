@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research - Titahi Bay Labs
+permalink: /research/
 ---
 
 # Independent Cross-Instance Coordination: Tracking a nascent dangerous capability

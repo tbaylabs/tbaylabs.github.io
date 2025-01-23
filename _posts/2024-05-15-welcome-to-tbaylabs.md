@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Titahi Bay Labs"
 date: 2024-05-15
-layout: research_update
+layout: post
 ---
 
 We're excited to launch our research blog! This will be the home for regular updates on our work in AI safety and capability analysis.

@@ -4,6 +4,8 @@ title: Research - Titahi Bay Labs
 permalink: /research/
 ---
 
+**See recent updates to this research:** [2025-01-26 - Silent Agreement: Cross-Instance Coordination Update]({{ site.baseurl }}{% post_url 2025-01-26-silent-agreement %})
+
 # Independent Cross-Instance Coordination: Tracking a nascent dangerous capability
 
 Can isolated instances of an LLM model coordinate responses without explicit communication? 

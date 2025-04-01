@@ -4,6 +4,8 @@ title: Research - Titahi Bay Labs
 permalink: /research/
 ---
 
+My posts have been moved to the [T Bay Labs Substack](https://tbaylabs.substack.com/) 
+
 **See recent updates to this research:** [2025-01-26 - Silent Agreement: Cross-Instance Coordination Update]({{ site.baseurl }}{% post_url 2025-01-26-silent-agreement %})
 
 # Independent Cross-Instance Coordination: Tracking a nascent dangerous capability
